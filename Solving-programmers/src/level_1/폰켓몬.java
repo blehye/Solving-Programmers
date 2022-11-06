@@ -7,13 +7,12 @@ public class 폰켓몬 {
 		int[] nums = {3,1,2,3};
 		int result = solution(nums);
 		System.out.println(result);
-		
 
 	}
 	
     public static int solution(int[] nums) {
         int len = nums.length/2;
-		int cnt = 0;
+        int cnt = 0;
 	
 		int answer = 0;
 		HashMap<Integer, Integer> hm = new HashMap();
