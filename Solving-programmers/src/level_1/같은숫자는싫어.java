@@ -10,6 +10,7 @@ public class 같은숫자는싫어 {
 	}
 	
     public static ArrayList solution(int []arr) {
+    	
         ArrayList list = new ArrayList();
 		list.add(arr[0]);
 		
