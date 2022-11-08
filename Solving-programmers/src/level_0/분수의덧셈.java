@@ -28,18 +28,17 @@ public class 분수의덧셈 {
 		}
 		
 		int x = bunmo > bunja ? bunja : bunmo;
-		System.out.println("x:"+x);
+
 		for(int i=x; i>=2; i--) {
 			if(bunmo%i==0 && bunja%i==0) {
 				bunmo = bunmo/i;
 				bunja = bunja/i;
 			}
 		}
-		System.out.println(bunmo);
-		System.out.println(bunja);
 		
 		answer[0] = bunja;
 		answer[1] = bunmo;
+		
 		return answer;
 	}
 
